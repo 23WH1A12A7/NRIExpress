@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
- import AboutUs from "./components/AboutUs";
+import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import Countries from "./components/Countries";
 import WhyChooseUs from "./components/WhyChooseUs";
@@ -15,11 +15,11 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-       <AboutUs />
-
+      <AboutUs />
       <Services />
       <Countries />
       <WhyChooseUs />
+
       <Contact />
       <Footer />
     </>

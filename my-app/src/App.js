@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import AboutUs from "./components/AboutUs";
+import Services from "./components/Services";
+import Countries from "./components/Countries";
+import WhyChooseUs from "./components/WhyChooseUs";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import useScrollReveal from "./hooks/useScrollReveal";
 
 function App() {
+  useScrollReveal();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <>
+      <Navbar />
+      <HeroSection />
+      <AboutUs />
+      <Services />
+      <Countries />
+      <WhyChooseUs />
+
+      {/* WhatsApp Get a Quote Button */}
+      <div style={{ textAlign: "center", margin: "60px 0" }}>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://wa.me/919876543210?text=Hello%20I%20would%20like%20to%20get%20a%20quote"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
+          className="primary-btn"
+          style={{ textDecoration: "none", display: "inline-block" }}
         >
-          Learn React
+          Get a Quote
         </a>
-      </header>
-    </div>
+      </div>
+
+      <Contact />
+      <Footer />
+    </>
   );
 }
 

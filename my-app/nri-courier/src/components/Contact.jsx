@@ -43,8 +43,17 @@ function Contact() {
             Tell us what you want to send and where.  
             Our team will get back to you quickly.
           </p>
-
-          <button className="primary-btn">Get a Quote</button>
+          {/* WhatsApp Get a Quote */}
+          <a
+            href="https://wa.me/919398563605?text=Hello%20I%20would%20like%20to%20get%20a%20quote"
+            target="_blank"
+            rel="noreferrer"
+            className="primary-btn"
+            style={{ textDecoration: "none", display: "inline-block" }}
+          >
+          Whatsapp
+          </a>
+          
           
         </div>
 
