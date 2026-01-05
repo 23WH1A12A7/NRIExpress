@@ -32,6 +32,11 @@ function Services() {
       title: "Seasonal Gifts",
       img: "https://img.freepik.com/premium-photo/christmas-gift-xmas-present-box-objects-holiday-mood-background-winter-merry-christmas_326694-93022.jpg",
     },
+    {
+  title: "Toys & Baby Products",
+  img: "https://tiimg.tistatic.com/fp/1/004/832/highly-attractive-kids-toys-561.jpg",
+}
+
   ];
 
   return (

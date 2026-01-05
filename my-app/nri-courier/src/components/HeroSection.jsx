@@ -52,12 +52,12 @@ function Home() {
             }}
           >
             <div>
-              <h3 style={{ fontSize: "28px" }}>20+</h3>
+              <h3 style={{ fontSize: "28px" }}>150+</h3>
               <span>Countries Served</span>
             </div>
 
             <div>
-              <h3 style={{ fontSize: "28px" }}>10,000+</h3>
+              <h3 style={{ fontSize: "28px" }}>1000+</h3>
               <span>Happy Customers</span>
             </div>
 
@@ -89,3 +89,5 @@ function Home() {
 }
 
 export default Home;
+
+
